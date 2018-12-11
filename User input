@@ -1,0 +1,19 @@
+# This lecture is about using 
+# The line-operator "<STDIN>".
+# Getting input from the keyboard.
+
+# Syntx: <STDIN>
+# Example: $name = <STDIN>;
+
+# THe function chomp removes the newline character Chomp($name = <STDIN>);
+
+print("Enter a name: ");
+chomp($name = <STDIN>);
+print("Name: $name\n");
+
+while($name ne "0")
+{
+	print("Name: $name\n");
+	chomp( $name = <STDIN> );
+	
+}
