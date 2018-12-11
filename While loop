@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+$n = 1;
+while ($n <= 10)
+{
+	$sum += 1;
+	$n++;
+	print($sum, " ");
+}
