@@ -1,0 +1,4 @@
+#!/usr/bin/perl
+
+$string_01 = 'This is value 1.';
+$string_02 = "This is value 2.\n";
