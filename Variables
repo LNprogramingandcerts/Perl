@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+$variable_01 = "This variable 1.\n\n";
+$variable_02 = "This variable 1.\n\n";
+$variable_03 = 99;
+$variable_04 = 143;
+
+
+print("$variable_03 * $variable_04");
