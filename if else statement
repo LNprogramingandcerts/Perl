@@ -1,0 +1,20 @@
+#!/usr/bin/perl
+
+#lt le eq ge gt ne comparison operators signs
+#elsif ()
+#{
+#	
+#}
+
+if ("A" gt "a")
+{
+	print("This is true again.\n\n");	
+}
+elsif ("B" ge "A")
+{
+	print("This is true again.\n\n");
+}
+else
+{
+	print("Default\n\n");
+}
