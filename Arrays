@@ -1,6 +1,0 @@
-@my_array = ("VUCTIR", 43, "Harrison", 23);
-@numeric_array = (1, 2, 3, 4, 5);
-@string_array = ("one", "two", "three", "four", "five");
-print("@my_array\n\n");
-print("@numeric_array\n\n");
-print("@string_array\n\n");

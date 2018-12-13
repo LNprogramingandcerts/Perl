@@ -1,0 +1,25 @@
+@my_array = ("VUCTIR", 43, "Harrison", 23);
+@numeric_array = (1, 2, 3, 4, 5);
+@string_array = ("one", "two", "three", "four", "five");
+print("@my_array\n\n");
+print("@numeric_array\n\n");
+print("@string_array\n\n");
+
+
+@my_array = ("VUCTIR", "Test 2", "Harrison");
+@array_variable_01 = $my_array[0];
+@array_variable_02 = $my_array[2];
+print("@array_variable_01\n @array_variable_02\n")
+
+Creating  Lists
+@my_array = qw/ chicken feet toes nails /;
+($my_array[0], $my_array[2]) = ("Davis", 45);
+print("$my_array[0] $my_array[2]\n");
+
+
+($name01 , $name02, $name03) = ("Victor", "Jaddian", "Forte");
+($name01[0], $name02[1],$name03[2]) = ("Victor", "Jaddian", "Forte");
+@names = qw(Victor Jaddian Forte);
+print("$name01 $name02 $name03 \n\n");
+print("$name01[0] $name02[1] $name03[2] \n\n");
+print("@names\n\n")
