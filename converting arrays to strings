@@ -1,0 +1,3 @@
+@my_array = qw / 1 2 3 /;
+$string_array = join(",", @my_array);
+print("$string_array \n");
