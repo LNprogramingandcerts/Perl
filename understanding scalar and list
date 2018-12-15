@@ -1,0 +1,8 @@
+$scalar_variable01 = 45;
+$num = 45;
+$scalar_variable02 = 45 + $num;
+print("$scalar_variable02\n");
+
+@my_array = qw/ Jane Doe Elliot /;
+($name_01, $name_02) = ("Bobby", "Harrison");
+print("$name_01 $name_02 \n")
