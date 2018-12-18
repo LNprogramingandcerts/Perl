@@ -1,0 +1,14 @@
+sub names
+{
+	foreach $name (@_)
+	{
+		if ($name eq "Jaddian")
+		{
+			return $name;
+			print("Something is here.");
+		}
+	}
+}
+
+$name = &names("Victor", "Jaddian", "Davis");
+print("Name selected: $name\n\n");
