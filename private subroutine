@@ -1,0 +1,8 @@
+sub add_numbers
+{
+		my($x, $y) = @_;
+		print("x = $x, y = $y\n\n");
+}
+
+&add_numbers(50, 77);
+print("\n\n$x, $y\n");
