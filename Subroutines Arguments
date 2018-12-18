@@ -1,0 +1,8 @@
+sub print_name
+{
+	($first_name, $last_name) = @_;
+	print("Hello, $first_name $last_name \n");
+	
+}
+
+&print_name("Victor", "Davis");
