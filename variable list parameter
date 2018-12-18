@@ -1,0 +1,8 @@
+sub add_numbers {
+
+
+	foreach $value(@_){
+		print("$value, ");
+	}
+}
+&add_numbers(1,2,3,4,5);
