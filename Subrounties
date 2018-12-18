@@ -1,0 +1,14 @@
+sub print_name()
+{
+		print("Hello, You have created your first sub rountie in perl\n\n");
+}
+$x = 6;
+$y = 8;
+$results = $x * $y;
+sub add_numbers()
+{
+		print("$results\n");
+}
+#Calling our subrountines
+& print_name();
+& add_numbers();
