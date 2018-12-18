@@ -1,0 +1,8 @@
+sub add_numbers()
+{
+	print(40 + 6, "\n\n");
+	return(40 + 6);	
+}
+
+$add_numbers = &add_numbers();
+print("Return value: $add_numbers\n");
