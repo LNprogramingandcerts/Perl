@@ -1,0 +1,4 @@
+ whi'e (defined($data = <>))
+ {
+	print("data");
+ }
