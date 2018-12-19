@@ -1,0 +1,7 @@
+open(FILEHANDLER, "<", "test.txt");
+while($line = <FILEHANDLER>)
+{
+	print("$line\n");
+	
+}
+close(FILEHANDLER);
