@@ -1,0 +1,4 @@
+if (!open(LOG, "<my.text"))
+{
+	die("Error: $!");
+}
