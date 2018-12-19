@@ -1,0 +1,5 @@
+$user_input = <STDIN>;
+print("The user has type: $user_input\n\n");
+
+print("Emter tje 1st mumber:");
+$x <STDIN>;
