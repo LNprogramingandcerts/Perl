@@ -3,3 +3,13 @@ print("The user has type: $user_input\n\n");
 
 print("Emter tje 1st mumber:");
 $x <STDIN>;
+
+print("Emter tje 1st mumber:");
+$x = <STDIN>;
+
+print("Enter the 2nd number:");
+$y = <STDIN>;
+
+$results = $x + $y;
+
+print("$x + $y = $results\n\n");
