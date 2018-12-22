@@ -1,0 +1,11 @@
+%my_hash = ("name_01" => "Bobby", "name_02" => "HoH", "name_03" => "GMB");
+foreach $values (values(%my_hash))
+{
+	print("\n$values\n");
+}
+
+%my_hash = ("name_01" => "Bobby", "name_02" => "HoH", "name_03" => "GMB");
+foreach $keys (kesy(%my_hash))
+{
+	print("\n$keys\n");
+}
