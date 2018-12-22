@@ -1,0 +1,3 @@
+%my_hash = ("name_01" => "Bobby", "name_02" => "HoH", "name_03" => "GMB");
+$my_hash{"name_01"} = "Victor";
+print("\n$my_hash{\"name_01\"}\n\n"); 
