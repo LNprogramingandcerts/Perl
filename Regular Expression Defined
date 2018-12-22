@@ -1,0 +1,8 @@
+$_ = "Hello Victor, How are you doing today?";
+if (/\bdoing\b/)
+{
+	print("Match Found\n\n");
+}
+else{
+	print("Match Not Found\n\n");
+}
