@@ -1,0 +1,6 @@
+%my_hash = ("name_01" => "Forte", "name_02" => "Vitor", "name_03" => "Jackson");
+$my_hash{""} = "Harrison";
+foreach $value (values(%my_hash) )
+{
+	print("\n$value\n");
+}
