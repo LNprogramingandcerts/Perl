@@ -1,0 +1,10 @@
+$some_variable = "Welcome to Perl";
+if ($some_variable =~ /Perl/)
+{
+		print("\nPerl was found!!!\n\n");
+}
+else
+{
+	
+		print("\nPerl was not found!!!\n\n");
+}
