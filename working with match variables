@@ -1,0 +1,5 @@
+$_ = "Hello Victor, How are you tosday?";
+if (/(\S+.*)/)
+{
+		print("$1\n\n");
+}
