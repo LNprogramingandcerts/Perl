@@ -1,0 +1,8 @@
+$names = "VIctor,Davis,Jaddian,Forte";
+@my_names = split(/,/, $names);
+foreach $name(@my_names)
+{
+
+	print("$name ")
+	
+}
