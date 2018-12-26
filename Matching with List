@@ -1,0 +1,4 @@
+@my_array = qw/ Victor victor VICTOR /;
+@my_list = grep(/victor/gi, @my_array);
+$num_of_elements = @my_list; 
+print("\n@my_list[0]\n\n");
